@@ -58,10 +58,6 @@ npx expo start
 - AsyncStorage: To store data persistently on the device.
 - Expo Vector Icons: Icons used throughout the app.
 
-## Folder Structure
-
-. ├── @types # Type definitions for meals, general data, etc. ├── assets # App assets (images, fonts, etc.) ├── components # Reusable UI components (e.g., Header, MealStats, CreateMeal) ├── constants # Theme constants (colors, font sizes) ├── navigation # Navigation setup using React Navigation ├── screens # App screens (Home, Details, CreateMeal, Edit, etc.) ├── storage # Logic to persist and retrieve meal data (AsyncStorage) ├── utils # Utility functions (e.g., date and hour formatting) ├── App.tsx # Root component of the app └── ...
-
 ## Core Functionality
 
 ### 1. **Home Screen**
@@ -69,33 +65,35 @@ npx expo start
    - Access meal statistics and track streaks of on-diet meals.
    - Add a new meal or navigate to edit an existing meal.
 
-   ![alt text](image.png)
+   <img src="/image.png" style="width: 250px;">
+   
 
 ### 2. **Create Meal Screen**
    - Allows the user to add a new meal with name, time, date, and diet status.
 
-   ![alt text](image-1.png)
+   <img src="/image-1.png" style="width: 250px;">
+
 
 ### 3. **Confirmation Meal Screen**
    - Provides feedback to the user after creating the new meal based on whether or not it is on the diet.
 
-   ![alt text](image-2.png)
+   <img src="/image-2.png" style="width: 250px;">
 
 ### 4. **Meal Details Screen**
    - View detailed information about a specific meal.
    - Edit or delete meals from this screen.
 
-   ![alt text](image-3.png)
+   <img src="/image-3.png" style="width: 250px;">
 
 ### 5. **Edit Meal Screen**
    - Allows the user to edit a meal that has already been created.
 
-   ![alt text](image-4.png)
+   <img src="/image-4.png" style="width: 250px;">
 
 ### 6. **General Data Screen**
    - Provides a detailed summary of total meals, meals on and off diet, and diet percentages.
 
-   ![alt text](image-5.png)
+   <img src="/image-5.png" style="width: 250px;">
 
 ## License
 
