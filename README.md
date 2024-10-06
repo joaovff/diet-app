@@ -97,4 +97,4 @@ npx expo start
 
 ## License
 
-All rights reserved. Any commercial use of the software is only available after mutual agreement. 
+All rights reserved. Any commercial use of this software is permitted only upon mutual agreement.
